@@ -1,0 +1,439 @@
+.wp-travel-inner-wrapper{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+@media (min-width:576px){
+    .wp-travel-inner-wrapper{
+        max-width:540px;
+    }
+}
+@media (min-width:768px){
+    .wp-travel-inner-wrapper{
+        max-width:720px;
+    }
+}
+@media (min-width:992px){
+    .wp-travel-inner-wrapper{
+        max-width:960px;
+    }		
+}
+@media (min-width:1200px){
+    .wp-travel-inner-wrapper{
+        max-width:1290px;
+    }	
+}
+.trip-content-area {
+    max-width: 100%;    
+    padding: 0;    
+}
+
+/* single trip starts */
+body.single-trip .wpte-gallery-wrapper {
+	margin-bottom: 25px;
+}
+body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel .owl-item {
+	height: 600px;
+}
+body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel.splide img,
+body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel .owl-item img {
+	object-fit: cover;
+	object-position: center;
+	height: 600px;
+}
+.wpte-gallery-wrapper .wpte-gallery-container {
+	margin-top: -80px;    
+    position: relative;	
+}
+.single-trip .wpte-gallery-wrapper .wpte-trip-feat-img-gallery .owl-nav button.owl-next,
+.single-trip .wpte-gallery-wrapper .wpte-trip-feat-img-gallery .owl-nav button.owl-prev {
+    background-color: rgba(33,131,223,.0) !important;
+    box-shadow: none;
+    border: 2px solid #fff !important;
+    padding: 20px !important;
+	width: 48px;
+	height: 48px;
+}
+.single-trip .wpte-trip-feat-img-gallery .owl-nav button.owl-next:hover,
+.single-trip .wpte-trip-feat-img-gallery .owl-nav button.owl-prev:hover {
+    background-color: var(--primary-color) !important;
+	border-color: var(--primary-color) !important;
+}
+.single-trip .wte-related-trips .wpte-trip-feat-img-gallery .owl-nav button.owl-next,
+.single-trip .wte-related-trips .wpte-trip-feat-img-gallery .owl-nav button.owl-prev {    
+	border: 0px solid transparent !important;
+}
+.single-trip .wte-related-trips .wpte-trip-feat-img-gallery .owl-nav button.owl-next:hover,
+.single-trip .wte-related-trips .wpte-trip-feat-img-gallery .owl-nav button.owl-prev:hover {    
+	border: 0px solid transparent !important;
+}
+.single-trip .wpte-trip-feat-img-gallery .owl-nav button::before, .wpte-trip-feat-img-gallery .owl-nav button::after {
+	background-color: #fff;
+	width: 1.2em;
+	height: 1.2em;
+}
+.single-trip .wpte-gallery-wrapper .wte-trip-vidgal-popup-trigger, .wpte-gallery-wrapper .wte-trip-image-gal-popup-trigger {
+	font-size: 16px;
+	font-weight: 400;
+}
+.single-trip .entry-header {	
+	display: flex;    
+	margin-bottom: 0;
+	padding-right: 0;
+	position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-trip .entry-header .entry-title {  
+	margin: 0;
+}
+.single-trip .entry-header .wte-duration-night {
+	display: none;
+}
+.single-trip .entry-header .wte-title-duration {
+	position: relative;
+}
+.single-trip .entry-header .wte-title-duration .days {
+    background-color: #fff;
+	font-weight: 600;
+}
+.single-trip .entry-header.has-night {
+	padding-right: 0;
+	margin-bottom: 25px;
+}
+.single-trip .entry-header.has-night .wte-title-duration {
+    right: 90px;
+    position: absolute;
+}
+.single-trip .entry-header.has-night .wte-duration-night {	
+	display: block;
+}
+body.wpte_has-sticky-booking-widget .wpte-booking-area-wrapper {
+	position: relative;
+	top: 0;
+}
+.single-trip.wpte_has-sticky-booking-widget.travelscape-sticky-bookingform .wpte-booking-area-wrapper {
+	position: sticky;
+	top: 60px;
+	z-index: 1;
+}
+.single-trip.wpte_has-sticky-booking-widget.travelscape-trip-fixed-tabs.travelscape-sticky-bookingform .wpte-booking-area-wrapper {
+	position: sticky;
+	top: 120px;
+	z-index: 1;
+}
+body.single-trip .entry-content {
+	margin-top: 0;
+}
+.wpte-booking-area-wrapper .wpte-booking-area {
+	background-color: var(--subtle-color);	
+	box-shadow: none;
+}
+.wpte-booking-area .wpte-bf-btn-wrap .wpte-bf-btn {
+	text-align: center;	
+}
+.wpte-booking-area .wpte-bf-btn:active, .wpte-booking-area .wpte-bf-btn:hover {
+    background-color: rgba(var(--primary-color-rgb), 0.9);	 
+}
+.wpte-booking-area .wpte-bf-content ul li, .wpte-booking-area .wpte-bf-content ol li,
+#tabs-container .tab-inner-wrapper .tab-anchor-wrapper .wte-tab-title,
+.trip-facts-value li label,
+.trip-facts-value li [class*=trip-facts-] .value {
+    font-size: var(--wp--preset--font-size--base);
+	line-height: var(--wp--custom--line-height--body);
+}
+.wpte-booking-area .wpte-bf-discount-tag {
+	background-color: var(--primary-color);
+	color: var(--primary-color-inverse);	
+	position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 4px 0px 4px;
+    font-size: 16px;
+    padding: 11px;
+    text-transform: uppercase;	
+}
+.wpte-booking-area .wpte-bf-price {
+    padding: 0px 24px 24px 24px;
+}
+.wte-process-layout .wte-popup-sidebar .wte-booking-summary .wte-booking-summary-info .wte-booking-summary-info-title {
+    background-color: var(--primary-color);
+	color: var(--primary-color-inverse);
+}
+.trip-facts-value .icon-holder {
+	border: 1px solid var(--primary-color);
+    padding: 6px;
+    border-radius: 100px;
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+.wte-process-layout .wte-process-tab-controller .wte-process-btn-next {
+    text-align: center;
+}
+/* single trip ends */
+
+/* related trips starts */
+/* related trips ends */
+
+/* WPTE archive pages CSS starts */
+.wte-trip-content-area .wp-travel-engine-archive-outer-wrap {
+    padding-top: 0px;
+}
+.travescape-wte-page-header {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;	
+	padding: 118px 0;
+	color: #fff;
+	position: relative;
+	margin-bottom: 25px;	
+}
+.travescape-wte-page-header .row {
+	align-items: center;
+    justify-content: center;
+	position: relative;
+	z-index: 10;
+}
+.travescape-wte-page-header:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #0E0D0D;
+	opacity: 0.7;	
+}
+.travescape-wte-page-header .page-title {
+	margin: 0;
+	padding: 0;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 1.6em;
+	text-align: center;
+}
+.travescape-wte-page-header .taxonomy-description p {
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.7em;	
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+.page-template-template-activities .activities-holder, .page-template-template-trip_types .trip_types-holder,
+.wte-trip-content-area .page-content {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.wp-travel-toolbar {	
+    margin-top: -65px;
+    margin-bottom: 0px;
+    padding: 24px 0 24px 0;	
+}
+.wp-travel-engine-archive-outer-wrap {
+	padding-top: 45px;
+}
+.category-trips-single .category-trips-single-inner-wrap .category-trip-discount,
+.category-trips-single .category-trips-single-inner-wrap .category-feat-ribbon .category-feat-ribbon-txt {
+    background-color: var(--primary-color);
+	color: var(--primary-color-inverse);
+}
+.category-trips-single .category-trips-single-inner-wrap .category-feat-ribbon .category-feat-ribbon-txt::before {	
+content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,1)'%3E%3Cpath fill='none' d='M0 0h24v24H0z'%3E%3C/path%3E%3Cpath d='M2.00488 19H22.0049V21H2.00488V19ZM2.00488 5L7.00488 8.5L12.0049 2L17.0049 8.5L22.0049 5V17H2.00488V5ZM4.00488 8.84131V15H20.0049V8.84131L16.5854 11.2349L12.0049 5.28024L7.42435 11.2349L4.00488 8.84131Z'%3E%3C/path%3E%3C/svg%3E");		
+}
+
+/* posts pagination - numbered */
+.trip-pagination {
+	width: 100%;
+	grid-column: 1 / -1;		
+	text-align: center;	
+}
+.trip-pagination .navigation .nav-links > * ,
+.trip-pagination .pagination .nav-links > * {
+	margin-right: 15px;
+}
+.trip-pagination .page-numbers {
+	padding: 10px 15px;
+	border: 1px solid var(--primary-border-color);
+	color: var(--primary-color);
+	display: inline;
+	border-radius: 0px;
+	font-size: 0.8em;
+}
+.trip-pagination .page-numbers:hover {
+	border: 1px solid var(--primary-color);
+	color: var(--secondary-color);	
+	padding: 10px 15px;
+	border-radius: 0px;	
+	background-color: var(--primary-color);
+	color: var(--primary-color-inverse);
+}
+.trip-pagination span.current {
+	background-color: var(--primary-color);
+	color: var(--primary-color-inverse);	
+	border-radius: 0px;
+	border: 1px solid var(--primary-color);
+}
+.trip-pagination .page-numbers:hover, 
+.trip-pagination .page-numbers.current, 
+.trip-pagination .page-numbers:focus {
+   background-color: var(--primary-color);
+}
+.trip-pagination span.current:hover {
+	background-color: var(--primary-color);
+	color: var(--primary-color-inverse);		
+	border-radius: 0px;
+	border: 1px solid var(--primary-color);	
+}
+
+
+.wp-travel-engine-archive-repeater-wrap .wte-search-load-more {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.wpte_has-tooltip .tippy-popper p{
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+/* WPTE archive pages CSS ends */
+
+/* WPTE checkout page starts */
+body.travelscape-no-sidebar.travelscape-wpte-pages #primary {
+    width: 100%; 
+}
+.wpte-bf-outer .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.completed::before {
+	background-color: var(--primary-color);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0z'%3E%3C/path%3E%3Cpath d='M9.9997 15.1709L19.1921 5.97852L20.6063 7.39273L9.9997 17.9993L3.63574 11.6354L5.04996 10.2212L9.9997 15.1709Z' fill='rgba(255,255,255,1)'%3E%3C/path%3E%3C/svg%3E");
+	border: 1px solid var(--primary-color);
+}
+.wpte-bf-outer .wpte-bf-booking-steps .wpte-bf-step-wrap .wpte-bf-step.completed::after {
+  background-color: var(--primary-color);
+}
+.wpte-bf-checkout .wte-coupon-whole-wrap,
+.wpte-bf-checkout .wpte-bf-checkout-form form,
+.wpte-bf-checkout .wpte-bf-book-summary {
+	background-color: #fff;	
+}
+.wpte-bf-checkout .wpte-bf-book-summary .wpte-bf-trip-name-wrap {
+    background-color: var(--subtle-color) !important;
+}
+#wp-travel-engine-order-form input[type=submit] {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.wte-coupon-whole-wrap {
+    padding: 30px 30px 30px 30px;
+}
+
+.wp-travel-engine-relation-details select, .wp-travel-engine-personal-details select {
+	background-color: #fff;
+	padding: 11px 10px;
+}
+
+.relation-options-title, .personal-options-title, #primary .page .entry-content .payment-method h3 {
+    background: var(--subtle-color);
+}
+
+.wptravelengine_css_v2 .thank-you-container {
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+/* WPTE checkout page ends */
+
+@media (max-width: 1024px) { 		
+	
+	.wp-travel-toolbar {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}	
+	
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel.splide img,
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel .owl-item img {
+		object-fit: cover;
+		height: 450px;
+	}	
+	
+}
+@media (max-width: 768px) { 
+	
+	.travescape-wte-page-header {		
+		padding: 80px 0;
+	}	
+	
+	.travescape-wte-page-header .page-title {
+		font-size: 2.5rem;
+	}	
+	
+	.single-trip .entry-header .entry-title {  
+		width: 50%;
+		font-size: 1.5rem;
+	}	
+	
+	.wp-travel-toolbar {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}	
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel.splide img,
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel .owl-item img {
+		object-fit: cover;
+		height: 450px;
+	}	
+	
+}
+@media (max-width: 480px) { 
+	
+	.travescape-wte-page-header {		
+		padding: 50px 0;
+	}	
+	
+	.travescape-wte-page-header .page-title {
+		font-size: 2.5rem;
+	}	
+	
+	.wp-travel-toolbar {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}	
+	
+	.wp-travel-engine-archive-outer-wrap {
+		padding-top: 5px;
+	}	
+	
+	body.single-trip .wpte-gallery-wrapper {
+		margin-bottom: 5px;
+	}	
+	
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel .owl-item {
+		height: 300px;
+	}
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel.splide img,
+	body.single-trip .wpte-gallery-wrapper .single-trip-main-carousel .owl-item img {
+		object-fit: cover;
+		height: 300px;
+	}
+	
+	.single-trip .entry-header .entry-title {  
+		width: 50%;
+		font-size: 1.5rem;
+	}
+	
+	.wte-d-flex.category-grid .category-trips-single, 
+	.wte-d-flex.category-grid .wpte-trip-single, 
+	.wte-d-flex.wte-layout-grid .category-trips-single, 
+	.wte-d-flex.wte-layout-grid .wpte-trip-single {
+		width: 92% !important;
+	}	
+	.wte-coupon-whole-wrap .coupon .wp-travel-engine-coupons-apply-btn {
+		padding: 0 20px;
+	}	
+	
+	
+	
+}
